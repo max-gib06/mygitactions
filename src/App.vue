@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Building systems app"/>
+  <ComponentPost msg="Building systems app"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ComponentPost from './components/ComponentPost.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ComponentPost
   }
 }
 </script>
